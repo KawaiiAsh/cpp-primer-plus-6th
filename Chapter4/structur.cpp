@@ -20,6 +20,9 @@ int main() {
             32.99
     };
 
+    cout << "Expand your guest list with " << guest.name;
+    cout << " and " << pal.name << "!\n";
 
+    cout << "You can have both for $" << guest.price + pal.price << "!\n";
     return 0;
 }
